@@ -42,7 +42,7 @@
         </tr>
       </thead>
       <tbody>
-          <tr *ngFor="let movieQuote of movieQuotes">
+          <tr *ngFor="let movieQuote of movieQuotesStram | async">
               <td>  {{movieQuote.quote}}  </td>
               <td>  {{movieQuote.movie}}  </td>            
             </tr>        
