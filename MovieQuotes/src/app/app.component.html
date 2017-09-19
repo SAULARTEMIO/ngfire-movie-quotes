@@ -37,22 +37,15 @@
     <table class="table table-striped">
       <thead>
         <tr>
-          <th>
-            Quote  
-          </th>
-          <th>
-            Movie    
-          </th>
+          <th>            Quote            </th>
+          <th>            Movie             </th>
         </tr>
       </thead>
-      
       <tbody>
           <tr *ngFor="let movieQuote of movieQuotes">
               <td>  {{movieQuote.quote}}  </td>
               <td>  {{movieQuote.movie}}  </td>            
-            </tr>
-        
+            </tr>        
       </tbody>
-
     </table>    
   </div>
